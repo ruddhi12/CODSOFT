@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.destination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.destination img,
+.destination-info {
+  flex: 1;
+}
+
+.destination img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.destination-info {
+  padding: 0 50px;
+}
+
+.destination-info h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
