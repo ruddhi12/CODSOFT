@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>World Tourism</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Explore the Wonders of the World</h1>
-    <p>Welcome to an unforgettable journey of discovery</p>
-  </header>
-  <section class="destination">
-    <div class="destination-info">
-      <h2>Paris, France</h2>
-      <p>Discover the romance of Paris with its iconic landmarks such as the Eiffel Tower and Louvre Museum.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Travel Worldwide</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-color.png" alt="logo" class="logo-color" />
+            <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+          </a>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </nav>
+      <div class="header__container">
+        <div class="header__image"></div>
+        <div class="header__content">
+          <h1>DISCOVER</h1>
+          <h2>WORLDWIDE</h2>
+          <p>
+            We are passionate about uncovering the wonders of our diverse world
+            and sharing them with you. Our mission is to inspire a sense of
+            discovery, and stories that make our planet unique.
+          </p>
+          <div>
+            <button class="btn">Explore</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="banner__card">
+        <div class="banner__content">
+          <h2>20%</h2>
+          <h3>OFF</h3>
+          <p>Web Design Mastery</p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <h4>Asian</h4>
+        <p>
+          Asia boasts incredibly diverse landscapes, from the Himalayan mountain
+          and lush tropical rainforests to pristine beaches.
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="banner__card">
+        <h4>Europe</h4>
+        <p>
+          A visit to Europe isn't complete without experiencing the charm and
+          significance of this tiny sovereign state within a city!
+        </p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="banner__card">
+        <h4>Book Now</h4>
+        <p>
+          Ensure a clean and intuitive design that allows users to easily
+          navigate through the booking process.
+        </p>
+        <a href="#">Read More</a>
+      </div>
     </div>
-    <img src="paris.jpg" alt="Paris, France">
-  </section>
-  <section class="destination">
-    <img src="santorini.jpg" alt="Santorini, Greece">
-    <div class="destination-info">
-      <h2>Santorini, Greece</h2>
-      <p>Experience the breathtaking views of the caldera and stunning sunsets in Santorini.</p>
-    </div>
-  </section>
-  <section class="destination">
-    <div class="destination-info">
-      <h2>Maui, Hawaii</h2>
-      <p>Relax on the pristine beaches and explore the lush landscapes of Maui, Hawaii.</p>
-    </div>
-    <img src="maui.jpg" alt="Maui, Hawaii">
-  </section>
-  <footer>
-    <p>Start your adventure today!</p>
-    <button>Book Now</button>
-  </footer>
-</body>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
 
